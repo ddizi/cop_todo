@@ -1,0 +1,33 @@
+/* 
+.toDo__list-text {
+    font-size: 1.4vw;
+    font-weight: 900;
+    display: inline-block;
+    width: 73%;
+    height: 4vh;
+    vertical-align: middle;
+}
+
+
+.toDo__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+} */
+
+.content {
+    animation-duration: 0.5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
