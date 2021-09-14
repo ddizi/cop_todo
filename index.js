@@ -6,7 +6,7 @@ query();
 function query() {
     $.ajax({
         method : "GET",
-        url: "http://54.180.124.191:3000",  //전송
+        url: "http://54.180.124.191:5000",  //전송
         dataType:"JSON", 
     })
     .done(function(data) {
