@@ -6,7 +6,7 @@ query();
 function query() {
     $.ajax({
         method : "GET",
-        url: "http://localhost:3000",  //전송
+        url: "http://54.180.124.191:3000",  //전송
         dataType:"JSON", 
     })
     .done(function(data) {
@@ -21,7 +21,7 @@ $('#button-addon2').click(function() {
     alert(addTask);
     $.ajax({
         method : "GET",
-        url: `http://localhost:3000/add?name=${addTask}`,  //전송
+        url: `http://54.180.124.191:3000/add?name=${addTask}`,  //전송
         dataType:"JSON", 
     })
     .done(function(data) {
